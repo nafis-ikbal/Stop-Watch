@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./src/output.css" rel="stylesheet">
+  <title>Stop Watch</title>
+</head>
+<body class="bg-stone-300 h-screen flex items-center justify-center">
+  <div class="bg-white w-[36rem] rounded-xl px-8 py-4">
+    <h1 class="text-3xl text-black font-semibold tracking-wider text-center mb-2">Stop Watch</h1>
+
+    <div class="mt-6 flex flex-col items-center py-6 rounded-2xl
+      bg-linear-to-r from-violet-300 to-fuchsia-300">
+      <!-- clock -->
+      <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+          <span class=" font-mono text-5xl" id="hour">00</span>
+          hours
+        </div>
+
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+          <span class=" font-mono text-5xl" id="minute">00</span>
+          minutes
+        </div>
+
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+          <span class=" font-mono text-5xl" id="sec">00</span>
+          seconds
+        </div>
+
+        <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+          <span class=" font-mono text-5xl" id="ml-sec">00</span>
+          milli sec
+        </div>
+      </div>
+
+      <!-- button -->
+      <div class="mt-5">
+        <i class="fa-solid fa-pause text-4xl cursor-pointer" id="pause"
+          style="color: #4a4e69;"></i>
+        <i class="fa-solid fa-circle-play text-6xl cursor-pointer" id="start"
+          style="color: #f25c54;"></i>
+        <i class="fa-solid fa-arrow-rotate-left text-4xl cursor-pointer" id="reset"
+          style="color: #4a4e69;"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="/src/script.js"></script>
+</body>
+</html>
