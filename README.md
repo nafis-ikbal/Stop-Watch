@@ -2,6 +2,10 @@
 
 A modern stopwatch application built with HTML, CSS (Tailwind CSS), and JavaScript. Features a clean interface with precise timing capabilities down to milliseconds.
 
+## 🌐 Live Preview
+
+Check out the live demo: [Stop Watch](https://stop-watch-0.vercel.app/)
+
 ## ✨ Features
 
 - **Precise Timing**: Accurate timing with millisecond precision
